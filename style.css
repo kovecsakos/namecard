@@ -1,0 +1,123 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+/* Main Styles */
+
+body{
+  background-color: #4B5043;
+}
+
+.namecard{
+    width: 600px;
+    max-width: calc(100vw - 10px);
+    margin: 100px auto;
+    background-color: rgba(155, 196, 188, 0.4);
+    border: black solid 1.5px;
+    box-shadow: 0 0 20px rgba(0,0,0,4);
+
+}
+
+ img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    margin-top: -60px;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1.2);
+}
+
+.profil-picture{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.name-headline{
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size:40px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+body{
+    font-family: "Alike", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display:inline;
+}
+
+.content{
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+h3{
+    font-size: 20px;
+    margin-top:-20px;
+    margin-bottom: 10px;
+}
+
+.content p{
+    margin-bottom: 10px;
+}
+
+section{
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 6px;
+}
+
+.fa:hover{
+    transform: scale(1.2);
+    color:#4B5043;
+}
+
+.fa{
+    transition: transform 0.5s ease;
+}
+
+.links a {
+    display: inline-block;
+    color: black;
+}
+
+body {
+    background:
+        radial-gradient(
+            circle at 50% 0%,
+            #687567 0%,
+            transparent 45%
+        ),
+        radial-gradient(
+            circle at 0% 100%,
+            #30352E 0%,
+            transparent 40%
+        ),
+        #4B5043;
+
+    min-height: 100vh;
+}
